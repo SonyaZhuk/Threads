@@ -6,6 +6,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * CyclicBarrier : A synchronization aid that allows a set of threads to all wait
+ * for each other to reach a common barrier point.
+ * <p>
  * CyclicBarrier allows threads to wait for other threads at a barrier point.
  * It serves a similar purpose as a CountDownLatch but unlike a CountDownLatch,
  * we can use it multiple times.
@@ -16,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  * <p>
  * Another important feature of CyclicBarrier is that we can supply a barrier action.
  * It runs after all threads reach the barrier point but before they're allowed to continue.
- *
+ * <p>
  * Demo for using the Same CyclicBarrier Multiple Times
  */
 public class DemoClient {

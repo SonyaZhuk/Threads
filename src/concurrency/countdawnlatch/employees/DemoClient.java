@@ -2,6 +2,10 @@ package concurrency.countdawnlatch.employees;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * CountDownLatch : A synchronization aid that allows one or more threads to wait until
+ * a set of operations being performed in other threads completes.
+ */
 public class DemoClient {
 
     public static void main(String args[]) throws InterruptedException {
