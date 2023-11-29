@@ -17,7 +17,8 @@ import java.util.concurrent.Executors;
  * Executors.newScheduledThreadPool(count). Фабричный метод создания пула с delay.
  * <p>
  * Interface Executor implementing Sub-Interfaces: ExecutorService, ScheduledExecutorService
- * Implementing Classes: AbstractExecutorService, ForkJoinPool, ScheduledThreadPoolExecutor, ThreadPoolExecutor
+ * Implementing Classes: AbstractExecutorService, ForkJoinPool, ScheduledThreadPoolExecutor, ThreadPoolExecutor,
+ * ExecutorCompletionService
  */
 public class Client {
     public static void main(String[] args) {
