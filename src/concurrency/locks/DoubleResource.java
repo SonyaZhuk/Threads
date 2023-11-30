@@ -1,4 +1,4 @@
-package concurrency.lock.pairs;
+package concurrency.locks;
 
 import java.util.Deque;
 import java.util.LinkedList;
