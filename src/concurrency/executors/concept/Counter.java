@@ -1,4 +1,4 @@
-package concurrency.executor;
+package concurrency.executors.concept;
 
 public class Counter implements Runnable {
     public int count = 0;
